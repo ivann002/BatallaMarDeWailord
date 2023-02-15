@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.batallamardewailord.HelloController">
+   <children>
+      <ImageView id="Ventana" fx:id="Ventana" fitHeight="407.0" fitWidth="608.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/istockphoto-1017086458-170667a.jpg" />
+         </image>
+      </ImageView>
+      <ImageView id="yate" fx:id="yate" fitHeight="47.0" fitWidth="80.0" layoutX="14.0" layoutY="14.0" onMouseDragged="#OnMouseDragged" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/pngegg.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
