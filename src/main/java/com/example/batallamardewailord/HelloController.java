@@ -15,15 +15,5 @@ public class HelloController {
         @FXML
         private ImageView yate;
 
-        public void initialize(){
-                Barco lancha = new Barco("Lancha",10, 20, 10,10,"España", yate);
-        }
 
-        @FXML
-        public void OnMouseDragged(Event evento) {
-                yate.setOnMouseDragged(event -> {
-                        yate.setTranslateX(event.getSceneX());
-                        yate.setTranslateY(event.getSceneY());
-                });
-        }
 }
